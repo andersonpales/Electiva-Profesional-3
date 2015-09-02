@@ -1,0 +1,126 @@
+#fondo{
+	position: relative;
+	margin: 0 auto; 
+	width: 80%;
+	height: 400px;
+	padding-top: 10px;
+	margin-top: 10px;
+	background-image: url(../img/fondo01.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	border: 5px solid white;
+	border-radius: 10px;
+	box-shadow: inset 0 0 10px black;
+}
+
+header{
+	padding: 50px;
+}
+
+h1{
+	color: black;
+	text-shadow: 2px 2px 3px cyan;
+	font-family: arial;
+	margin: 0 auto;
+}
+
+section{
+	margin-left: 100px;
+	display: inline-block;
+
+}
+
+.circulo{
+	border: 1px solid black;
+	border-radius: 50%;
+	margin: 0 auto;	
+	margin-top: 50px;
+}
+
+#negro{
+	
+	width: 300px;
+	height: 300px;
+	background-color: black;
+}
+
+#crema{
+	
+	width: 285px;
+	height: 285px;
+	background-color: rgb(157, 162, 116);
+	margin-top: 5px;
+}
+
+#blanco{
+	
+	width: 255px;
+	height: 255px;
+	background-color: white;
+	border-color: white;
+	margin-top: 15px;
+}
+
+#rojo{
+	
+	width: 220px;
+	height: 220px;
+	background-color: rgb(214, 33, 50);
+	border-color: rgb(214, 33, 50);
+	margin-top: 15px;
+}
+
+#texto{
+	color: rgb(35, 31, 32);
+	font: normal 50px "Lucida Grande",sans-serif;
+	text-align: center;
+	margin-top: 50px;
+	border-color: transparent;
+	font-weight: bold;
+}
+
+#sub{
+	color: rgb(35, 31, 32);
+	font: normal 15px "Lucida Grande",sans-serif;
+	text-align: center;
+	margin-top: 5px;
+	border-color: transparent;
+	
+}
+
+
+.cuadro{
+	width: 50px;
+	height: 50px;
+	margin: 2px;
+	display: inline-block;
+}
+
+#window{
+	width: 120px;
+}
+
+
+#naranja{
+	background-color: rgb(255, 70, 40);
+}
+
+#verde{
+	background-color: rgb(114, 188, 32);
+	display: inline-block;
+}
+
+#azul{
+	background-color: rgb(2, 165, 239);
+}
+
+#amarillo{
+	background-color: rgb(255, 183, 33);
+}
+
+
+#textwin{
+	font: 80px sans-serif;
+	color: rgb(116, 114, 116);
+	display: inline-block;
+}
