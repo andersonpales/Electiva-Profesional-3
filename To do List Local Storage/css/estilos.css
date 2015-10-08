@@ -1,0 +1,78 @@
+* { 
+    margin: 0;
+    padding: 0;
+  }
+
+body {
+  background: url('../img/fondo.jpg');
+  font-size: 30px;
+  font-family: 'Boogaloo', cursive;
+
+}
+form {
+
+  width: 250px;
+  background: #A21242;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  
+}
+
+section{
+  background: url('../img/iphone.png');
+  height: 700px;
+  width: 700px;
+  margin: auto;
+}
+
+h1{
+  color: white;
+  text-align: center;
+}
+
+article{
+  width: 250px;
+  padding-top: 150px;
+  padding-left: 30px;
+  margin: auto;
+}
+
+#nuevatarea {
+  width: 200px;
+}
+#todolist {
+  width: 280px;
+  margin: 10px solid;
+  margin: 10px 10px;
+}
+#todolist li {
+  width: 220px;
+  border-radius: 2px;
+  list-style: none;
+  background: white;
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  position: relative;
+  text-align: center;
+}
+#todolist li:nth-child(2n){
+  background: #E5E5E5;
+}
+#todolist li:hover:after,
+#todolist li.done:after {
+  content: '✔';
+  color: #0ADC53;
+  position: absolute;
+  left: 5px;    
+}
+#todolist li.done:hover:after {
+  content: 'X';
+  font-weight: bold;
+  color: #c00;
+  position: absolute;
+  margin-left: 200px;
+
+}
